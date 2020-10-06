@@ -1,0 +1,125 @@
+﻿@model IEnumerable<UI.WebFinal.Models.AlumnoInscripcionModel>
+
+@{
+    ViewBag.Title = "MisAlumnosCurso";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+<br />
+<style>
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    input[type=number] {
+        -moz-appearance: textfield;
+    }
+
+    .nota {
+        width: 50px;
+        text-align: center;
+        border: 1px solid gray;
+    }
+
+</style>
+
+<h2>Mis Alumnos Curso</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.id_inscripcion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.legajo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nombre_Apellido)
+        </th>
+        <td>
+            @Html.DisplayNameFor(model => model.condicion)
+        </td>
+        <th>
+            @Html.DisplayNameFor(model => model.nota)
+        </th>
+
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.id_inscripcion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.legajo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.nombre_Apellido)
+        </td>
+        <td>
+            @{
+                if (item.condicion == 0)
+                {
+                    <p>Libre</p>
+                }
+                else if (item.condicion == 1)
+                {
+                    <p>Inscripto</p>
+                }
+                else if (item.condicion == 2)
+                {
+                    <p>Regular</p>
+                }
+                else if (item.condicion == 3)
+                {
+                    <p>Aprobado</p>
+                }
+            }
+        </td>
+        <td>
+            
+            <input type="number" value="@Html.DisplayFor(modelItem => item.nota)" class="nota" min="0" max="10"
+                   data-old-value="@Html.DisplayFor(modelItem => item.nota)"
+                   data-id="@Html.DisplayFor(modelItem => item.id_inscripcion)" />
+
+        </td>
+        @*<td>
+            @Html.ActionLink("Cargar Nota", "CargarNota", new {id=item.id_inscripcion}) |
+        </td>*@
+    </tr>
+}
+
+</table>
+
+
+@section scripts{
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(".nota").blur(function () {
+            console.log("Value input " + $(this).val());
+            console.log("Data-id " + $(this).data("id"));
+            console.log("Data-old-value " + $(this).data("old-value"));
+            if ($(this).val() != $(this).data("old-value")) {
+                var url = "/DocenteCurso/ActualizaNota" ;
+                var data = {
+                    idInscripcion: $(this).data("id"),
+                    nota: $(this).val()
+                }
+                $.post(url, data)
+                    .done(function (response) {
+                        console.log("response ",response)
+                    })
+                    .fail((err) => {
+                        console.log("err ", err)
+                    });
+
+            }
+
+        });
+
+    </script>
+    }

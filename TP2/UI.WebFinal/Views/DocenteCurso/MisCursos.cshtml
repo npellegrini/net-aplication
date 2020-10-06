@@ -1,0 +1,54 @@
+﻿@model IEnumerable<UI.WebFinal.Models.DocenteCursoModel>
+
+@{
+    ViewBag.Title = "MisCursos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+<br />
+<h2>Mis Cursos</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.id_curso)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.materia)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.cargo)
+        </th>
+        
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.id_curso)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.materia)
+        </td>
+        <td>
+            @{
+                if (item.cargo == 0)
+                {
+                    <p>Titular</p>
+                }
+                else
+                {
+                    <p>Auxiliar</p>
+                }
+            }
+        </td>
+        <td>
+
+            @Html.ActionLink("Ver Alumnos", "MisAlumnosCurso", new { id=item.id_curso })
+
+        </td>
+    </tr>
+}
+
+</table>

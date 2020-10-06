@@ -1,0 +1,119 @@
+﻿@model IEnumerable<UI.WebFinal.Models.UsuariosModel>
+
+@{
+    ViewBag.Title = "Usuarios del Sistema";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+<br />
+
+<h2>Usuarios del Sistema</h2>
+
+<p>
+    @Html.ActionLink("Crear usuario", "Agregar")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.id_usuario)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.apellido)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.direccion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.email)
+        </th>
+        @*<th>
+            @Html.DisplayNameFor(model => model.fecha_nac)
+        </th>*@
+        <th>
+            @Html.DisplayNameFor(model => model.telefono)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tipo_persona)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.legajo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.desc_plan)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nombre_usuario)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.habilitado)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.desc_especialidad)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.id_usuario)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.apellido)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.direccion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.email)
+        </td>
+        @*@<td>
+            @Html.DisplayFor(modelItem => item.fecha_nac)
+        </td>*@
+        <td>
+            @Html.DisplayFor(modelItem => item.telefono)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.tipo_persona)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.legajo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.desc_plan)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.nombre_usuario)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.habilitado)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.desc_especialidad)
+        </td>
+        <td>
+           
+             @Html.ActionLink("Editar", "Editar", new { id=item.id_usuario }) |
+            @Html.ActionLink("Eliminar", "Eliminar", new { id = item.id_usuario }, new { @class="pElimina"})
+        </td>
+    </tr>
+}
+
+</table>
+@section scripts
+{
+    <script>
+        $(".pElimina").click(function (event) {
+            if (!confirm('Estas seguro que desea eliminar?')) {
+                event.preventDefault();
+            }
+        });
+    </script>
+
+}

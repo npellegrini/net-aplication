@@ -1,0 +1,92 @@
+﻿@model IEnumerable<UI.WebFinal.Models.DocenteCursoModel>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+<br />
+
+<h2>Dictados</h2>
+
+<p>
+    @Html.ActionLink("Agregar Dictado", "AgregarDocente", "DocenteCurso", new { id = Session["id_curso"] }, null)
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.id_dictado)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.legajo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.apellido)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.cargo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.id_docente)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.id_dictado)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.legajo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.apellido)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nombre)
+            </td>
+
+            <td>
+                @{
+                    if (item.cargo == 0)
+                    {
+                        <p>Titular</p>
+                    }
+                    else
+                    {
+                        <p>Auxiliar</p>
+                    }
+                }
+
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.id_docente)
+            </td>
+
+            <td>
+
+                @Html.ActionLink("Eliminar", "Eliminar", new { id = item.id_dictado }, new { @class="pElimina"})
+            </td>
+        </tr>
+                    }
+
+</table>
+<div>
+    @Html.ActionLink("Volver a cursos", "Index","Curso")
+</div>
+@section scripts
+{
+    <script>
+        $(".pElimina").click(function (event) {
+            if (!confirm('Estas seguro que desea eliminar?')) {
+                event.preventDefault();
+            }
+        });
+    </script>
+
+}

@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "Usuarios";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+
+<h2>Usuarios</h2>
+<!--<% var myArray = (string[])ViewData["datos"]; %>-->
+@{ 
+<p>
+    <!--Your name: <b>@ViewData["datos"]</b>-->
+    @{ 
+        //var myArray = (string[])ViewData["datos"]; 
+        
+     }<br/>
+    @foreach (var item in myArray)
+    {
+        @item
+    }
+
+
+</p>
+    }
+

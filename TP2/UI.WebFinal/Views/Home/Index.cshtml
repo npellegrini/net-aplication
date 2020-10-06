@@ -1,0 +1,47 @@
+﻿
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    
+}
+
+<br />
+<br />
+
+<div class="container">
+    @if (Session["usuario"] == null)
+    {
+        <h2>Login</h2>
+    <form action="Home/Usuarios" method="post">
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" name="email" placeholder="Email">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" name="password" placeholder="Password">
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+    }else
+    {
+        <h2>Bienvenido al sistema de administracion</h2>
+        String User = Convert.ToString(Session["usuario"]);
+        <h3>Bienvenido: @User</h3>
+        <h3>@Session["Message"]</h3>
+
+        
+        String Sessi = Convert.ToString(Session["id"]);
+        <h4>Este es mi session id: @Sessi</h4>
+    }
+    @{ 
+       // var error = ViewData["error"].ToString();
+        //if (!String.IsNullOrEmpty(error))
+        //{
+            @ViewData["error"];
+        //}
+    }
+
+
+</div>

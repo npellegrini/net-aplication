@@ -1,0 +1,89 @@
+﻿@model IEnumerable<UI.WebFinal.Models.InscripcionModel>
+
+@{
+    ViewBag.Title = "Inscripciones";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+<br />
+
+<p>
+
+<h2>Inscripciones</h2>
+</p>
+<p>
+    Esta es mi sesion: @Session["id"]
+</p>
+<p>
+    @Html.ActionLink("Agregar", "Agregar")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.id_inscripcion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.desc_materia)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.desc_comision)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.condicion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nota)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.id_inscripcion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.desc_materia)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.desc_comision)
+        </td>
+        <td>
+            @{
+                if (item.condicion == 0)
+                {
+                    <p>Libre</p>
+                }
+                else if (item.condicion == 1)
+                {
+                    <p>Inscripto</p>
+                }
+                else if (item.condicion == 2)
+                {
+                    <p>Regular</p>
+                }
+                else if (item.condicion == 3)
+                {
+                    <p>Aprobado</p>
+                }
+            }
+        </td>
+
+        <td>
+            @Html.DisplayFor(modelItem => item.nota)
+        </td>
+        <td>
+            @Html.ActionLink("Eliminar", "Eliminar", new { id = item.id_inscripcion }, new { @class = "pElimina" })
+        </td>
+    </tr>
+}
+
+</table>
+<script>
+        $(".pElimina").click(function (event) {
+            if (!confirm('Estas seguro que desea eliminar?')) {
+                event.preventDefault();
+            }
+        });
+</script>

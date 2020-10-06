@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI.Desktop", "UI.Desktop\UI.Desktop.csproj", "{C459770C-5935-4C9D-926C-C90D0EEE446D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Negocio", "Negocio\Negocio.csproj", "{584E4CDB-ED9B-45A0-BC57-EBA657B2ABD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Util", "Util\Util.csproj", "{15552BCA-23A9-40F7-8356-7A8BA2EC9BA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{479F97A5-614A-4E0D-A605-EC8A6F316F89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data.Database", "Data.Database\Data.Database\Data.Database.csproj", "{18D1C50F-58E0-4D94-B05B-4A95A146E6BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI.WebFinal", "UI.WebFinal\UI.WebFinal.csproj", "{88227393-39F7-4F89-AB06-B1D667CD0982}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C459770C-5935-4C9D-926C-C90D0EEE446D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C459770C-5935-4C9D-926C-C90D0EEE446D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C459770C-5935-4C9D-926C-C90D0EEE446D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C459770C-5935-4C9D-926C-C90D0EEE446D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{584E4CDB-ED9B-45A0-BC57-EBA657B2ABD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{584E4CDB-ED9B-45A0-BC57-EBA657B2ABD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{584E4CDB-ED9B-45A0-BC57-EBA657B2ABD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{584E4CDB-ED9B-45A0-BC57-EBA657B2ABD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15552BCA-23A9-40F7-8356-7A8BA2EC9BA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15552BCA-23A9-40F7-8356-7A8BA2EC9BA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15552BCA-23A9-40F7-8356-7A8BA2EC9BA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15552BCA-23A9-40F7-8356-7A8BA2EC9BA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{479F97A5-614A-4E0D-A605-EC8A6F316F89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{479F97A5-614A-4E0D-A605-EC8A6F316F89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{479F97A5-614A-4E0D-A605-EC8A6F316F89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{479F97A5-614A-4E0D-A605-EC8A6F316F89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18D1C50F-58E0-4D94-B05B-4A95A146E6BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18D1C50F-58E0-4D94-B05B-4A95A146E6BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18D1C50F-58E0-4D94-B05B-4A95A146E6BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18D1C50F-58E0-4D94-B05B-4A95A146E6BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88227393-39F7-4F89-AB06-B1D667CD0982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88227393-39F7-4F89-AB06-B1D667CD0982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88227393-39F7-4F89-AB06-B1D667CD0982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88227393-39F7-4F89-AB06-B1D667CD0982}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://utn2017netg26.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Entidades\\Entidades.csproj
+		SccProjectName1 = Entidades
+		SccLocalPath1 = Entidades
+		SccProjectUniqueName2 = Negocio\\Negocio.csproj
+		SccProjectName2 = Negocio
+		SccLocalPath2 = Negocio
+		SccProjectUniqueName3 = UI.Desktop\\UI.Desktop.csproj
+		SccProjectName3 = UI.Desktop
+		SccLocalPath3 = UI.Desktop
+		SccProjectUniqueName4 = Util\\Util.csproj
+		SccProjectName4 = Util
+		SccLocalPath4 = Util
+		SccProjectUniqueName5 = Data.Database\\Data.Database\\Data.Database.csproj
+		SccProjectName5 = Data.Database/Data.Database
+		SccLocalPath5 = Data.Database\\Data.Database
+		SccProjectUniqueName6 = UI.WebFinal\\UI.WebFinal.csproj
+		SccProjectName6 = UI.WebFinal
+		SccLocalPath6 = UI.WebFinal
+	EndGlobalSection
+EndGlobal

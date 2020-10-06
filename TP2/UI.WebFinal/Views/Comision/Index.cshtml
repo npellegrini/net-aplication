@@ -1,0 +1,73 @@
+﻿@model IEnumerable<UI.WebFinal.Models.ComisionModel>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br/>
+<br />
+<br />
+<br />
+<h2>Comisiones</h2>
+
+<h5>@Session["Message"]</h5>
+
+<p>
+    @Html.ActionLink("Agregar comisión", "Agregar")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.id_comision)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.desc_comision)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.anio_especialidad)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.desc_plan)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.desc_especialidad)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.id_comision)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.desc_comision)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.anio_especialidad)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.desc_plan)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.desc_especialidad)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Editar", new { id = item.id_comision }) |
+            @Html.ActionLink("Eliminar", "Eliminar", new { id = item.id_comision }, new { @class = "pElimina" })
+        </td>
+    </tr>
+}
+
+</table>
+@section scripts
+{
+    <script>
+        $(".pElimina").click(function (event) {
+            if (!confirm('Estas seguro que desea eliminar?')) {
+                event.preventDefault();
+            }
+        });
+    </script>
+
+}

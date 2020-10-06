@@ -1,0 +1,290 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unidad1Capitulo1Lab1", "Unidad1Capitulo1Lab1\Unidad1Capitulo1Lab1.csproj", "{7A16AB5A-F6B6-49E5-8689-9E4802C89BAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unidad2Capitulo1Lab1Practica1", "Unidad2Capitulo1Lab1Practica1\Unidad2Capitulo1Lab1Practica1.csproj", "{DF476921-0A88-43F6-8A55-08F627FCDE63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unidad2Capitulo1Lab1Practica3", "Unidad2Capitulo1Lab1Practica3\Unidad2Capitulo1Lab1Practica3.csproj", "{2A0F2ED8-3917-41D9-9735-C84D2828DC13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unidad2Capitulo1Lab1Practica4", "Unidad2Capitulo1Lab1Practica4\Unidad2Capitulo1Lab1Practica4.csproj", "{AF08AE7A-2286-4702-B361-977E2F1EC5B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unidad2Capitulo1Lab1Practica2", "Unidad2Capitulo1Lab1Practica2\Unidad2Capitulo1Lab1Practica2.csproj", "{E5830F56-1E4C-47E1-A345-0EA555233FE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unidad2Capitulo2Lab2Practica1Consola", "Unidad2Capitulo2Lab1Practica1Consola\Unidad2Capitulo2Lab2Practica1Consola.csproj", "{CCD9713A-EA95-480C-903B-4379CE6C4442}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unidad2Capitulo2Lab2Practica1Clases", "Unidad2Capitulo2Lab1Practica1Clases\Unidad2Capitulo2Lab2Practica1Clases.csproj", "{B83B3830-0826-413F-ADB3-ACB314811D61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unidad2Capitulo2Lab2Practica2Consola", "Unidad2Capitulo2Lab1Practica2Consola\Unidad2Capitulo2Lab2Practica2Consola.csproj", "{DAFA077E-9A0C-4C00-91B4-3FD1B00CF816}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unidad2Capitulo2Lab2Practica2Clases", "Unidad2Capitulo2Lab1Practica2Clases\Unidad2Capitulo2Lab2Practica2Clases.csproj", "{2E015829-4AFB-4533-A4BE-A1055067094B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unidad2Capitulo2Lab2Practica3Clases", "Unidad2Capitulo2Lab1Practica3Clases\Unidad2Capitulo2Lab2Practica3Clases.csproj", "{16C977C5-2906-4908-BFC9-9C103C3238E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unidad2Capitulo2Lab2Practica4Clases", "Unidad2Capitulo2Lab1Practica4Clases\Unidad2Capitulo2Lab2Practica4Clases.csproj", "{3A04B90E-14B2-4C86-8608-8E99CC16B53D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unidad2Capitulo2Lab2Practica5Clases", "Unidad2Capitulo2Lab1Practica5Clases\Unidad2Capitulo2Lab2Practica5Clases.csproj", "{2AC3632D-6798-46DB-8311-4D10C1B6BCAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unidad2Capitulo2Lab2Practica5Consola", "Unidad2Capitulo2Lab1Practica5Consola\Unidad2Capitulo2Lab2Practica5Consola.csproj", "{92EF5CD3-EE01-467A-A052-966B58783E43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unidad4Capitulo1Lab1Practica1", "Unidad4Capitulo1Lab1Practica1\Unidad4Capitulo1Lab1Practica1.csproj", "{DAB2B1CE-3B92-4D1F-B225-F6BDCCBB9924}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unidad4Capitulo1Lab1Practica2", "Unidad4Capitulo1Lab1Practica2\Unidad4Capitulo1Lab1Practica2.csproj", "{E40C8456-F250-41E3-A987-C2CB16508B6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unidad4Capitulo1Lab1Practica3", "Unidad4Capitulo1Lab1Practica3\Unidad4Capitulo1Lab1Practica3.csproj", "{4CECFA0E-B4B1-401C-91E3-38079B5672BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unidad4Capitulo1Lab2Practica1", "Unidad4Capitul1Lab2Practica1\Unidad4Capitulo1Lab2Practica1.csproj", "{B1BF3FC1-D703-4C4D-B371-610CEBE97AB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unidad4Capitulo1Lab3Practica1", "Unidad4Capitulo1Lab3Practica1\Unidad4Capitulo1Lab3Practica1.csproj", "{31B07895-4175-485D-84F5-FD2CAAA0328A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unidad4Capitulo1Lab3Practica2", "Unidad4Capitulo1Lab3Practica2\Unidad4Capitulo1Lab3Practica2.csproj", "{3DE9F4B4-48D7-4637-A43E-0715CF74C1A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unidad4Capitulo1Lab3Practica3", "Unidad4Capitulo1Lab3Practica3\Unidad4Capitulo1Lab3Practica3.csproj", "{1BF71934-9F2E-42F7-83B8-9202E6F2437B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unidad4Capitulo1Lab3Practica4", "Unidad4Capitulo1Lab3Practica4\Unidad4Capitulo1Lab3Practica4.csproj", "{C0CC0A45-D6C5-46DA-97F3-9F34B3202F26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unidad4Capitulo1Lab3Practica5", "Unidad4Capitulo1Lab3Practica5\Unidad4Capitulo1Lab3Practica5.csproj", "{5C90423F-D5AE-44A8-B30B-2423832B5CD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unidad4Capitulo1Lab3Practica6", "Unidad4Capitulo1Lab3Practica6\Unidad4Capitulo1Lab3Practica6.csproj", "{E8CE000E-C0CD-425E-BC6D-E24926A28D6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unidad4Capitulo1Lab3Practica7", "Unidad4Capitulo1Lab3Practica7\Unidad4Capitulo1Lab3Practica7.csproj", "{33730984-661A-4765-9638-33AC7D165DD4}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Unidad5WebSite", "Unidad5WebSite", "{77797F13-4EF1-45DB-BECB-CEA0284D3BF5}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50261"
+		Debug.AspNetCompiler.PhysicalPath = "Unidad5WebSite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50261\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50261"
+		Release.AspNetCompiler.PhysicalPath = "Unidad5WebSite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50261\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50261"
+		SlnRelativePath = "Unidad5WebSite\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unidad5Grilla", "Unidad5Grilla\Unidad5Grilla.csproj", "{0F7CA927-BE0F-49F2-96D0-F0163F7E9D2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unidad5Negocio", "Unidad5Negocio\Unidad5Negocio.csproj", "{A8027055-BC73-48AA-9DE8-7B745C260327}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A16AB5A-F6B6-49E5-8689-9E4802C89BAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A16AB5A-F6B6-49E5-8689-9E4802C89BAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A16AB5A-F6B6-49E5-8689-9E4802C89BAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A16AB5A-F6B6-49E5-8689-9E4802C89BAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF476921-0A88-43F6-8A55-08F627FCDE63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF476921-0A88-43F6-8A55-08F627FCDE63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF476921-0A88-43F6-8A55-08F627FCDE63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF476921-0A88-43F6-8A55-08F627FCDE63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A0F2ED8-3917-41D9-9735-C84D2828DC13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A0F2ED8-3917-41D9-9735-C84D2828DC13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A0F2ED8-3917-41D9-9735-C84D2828DC13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A0F2ED8-3917-41D9-9735-C84D2828DC13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF08AE7A-2286-4702-B361-977E2F1EC5B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF08AE7A-2286-4702-B361-977E2F1EC5B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF08AE7A-2286-4702-B361-977E2F1EC5B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF08AE7A-2286-4702-B361-977E2F1EC5B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5830F56-1E4C-47E1-A345-0EA555233FE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5830F56-1E4C-47E1-A345-0EA555233FE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5830F56-1E4C-47E1-A345-0EA555233FE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5830F56-1E4C-47E1-A345-0EA555233FE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCD9713A-EA95-480C-903B-4379CE6C4442}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCD9713A-EA95-480C-903B-4379CE6C4442}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCD9713A-EA95-480C-903B-4379CE6C4442}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCD9713A-EA95-480C-903B-4379CE6C4442}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B83B3830-0826-413F-ADB3-ACB314811D61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B83B3830-0826-413F-ADB3-ACB314811D61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B83B3830-0826-413F-ADB3-ACB314811D61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B83B3830-0826-413F-ADB3-ACB314811D61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAFA077E-9A0C-4C00-91B4-3FD1B00CF816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAFA077E-9A0C-4C00-91B4-3FD1B00CF816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAFA077E-9A0C-4C00-91B4-3FD1B00CF816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAFA077E-9A0C-4C00-91B4-3FD1B00CF816}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E015829-4AFB-4533-A4BE-A1055067094B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E015829-4AFB-4533-A4BE-A1055067094B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E015829-4AFB-4533-A4BE-A1055067094B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E015829-4AFB-4533-A4BE-A1055067094B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16C977C5-2906-4908-BFC9-9C103C3238E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16C977C5-2906-4908-BFC9-9C103C3238E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16C977C5-2906-4908-BFC9-9C103C3238E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16C977C5-2906-4908-BFC9-9C103C3238E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A04B90E-14B2-4C86-8608-8E99CC16B53D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A04B90E-14B2-4C86-8608-8E99CC16B53D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A04B90E-14B2-4C86-8608-8E99CC16B53D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A04B90E-14B2-4C86-8608-8E99CC16B53D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AC3632D-6798-46DB-8311-4D10C1B6BCAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AC3632D-6798-46DB-8311-4D10C1B6BCAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AC3632D-6798-46DB-8311-4D10C1B6BCAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AC3632D-6798-46DB-8311-4D10C1B6BCAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92EF5CD3-EE01-467A-A052-966B58783E43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92EF5CD3-EE01-467A-A052-966B58783E43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92EF5CD3-EE01-467A-A052-966B58783E43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92EF5CD3-EE01-467A-A052-966B58783E43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAB2B1CE-3B92-4D1F-B225-F6BDCCBB9924}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAB2B1CE-3B92-4D1F-B225-F6BDCCBB9924}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAB2B1CE-3B92-4D1F-B225-F6BDCCBB9924}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAB2B1CE-3B92-4D1F-B225-F6BDCCBB9924}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E40C8456-F250-41E3-A987-C2CB16508B6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E40C8456-F250-41E3-A987-C2CB16508B6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E40C8456-F250-41E3-A987-C2CB16508B6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E40C8456-F250-41E3-A987-C2CB16508B6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CECFA0E-B4B1-401C-91E3-38079B5672BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CECFA0E-B4B1-401C-91E3-38079B5672BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CECFA0E-B4B1-401C-91E3-38079B5672BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CECFA0E-B4B1-401C-91E3-38079B5672BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1BF3FC1-D703-4C4D-B371-610CEBE97AB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1BF3FC1-D703-4C4D-B371-610CEBE97AB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1BF3FC1-D703-4C4D-B371-610CEBE97AB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1BF3FC1-D703-4C4D-B371-610CEBE97AB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31B07895-4175-485D-84F5-FD2CAAA0328A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31B07895-4175-485D-84F5-FD2CAAA0328A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31B07895-4175-485D-84F5-FD2CAAA0328A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31B07895-4175-485D-84F5-FD2CAAA0328A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DE9F4B4-48D7-4637-A43E-0715CF74C1A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DE9F4B4-48D7-4637-A43E-0715CF74C1A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DE9F4B4-48D7-4637-A43E-0715CF74C1A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DE9F4B4-48D7-4637-A43E-0715CF74C1A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BF71934-9F2E-42F7-83B8-9202E6F2437B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BF71934-9F2E-42F7-83B8-9202E6F2437B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BF71934-9F2E-42F7-83B8-9202E6F2437B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BF71934-9F2E-42F7-83B8-9202E6F2437B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0CC0A45-D6C5-46DA-97F3-9F34B3202F26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0CC0A45-D6C5-46DA-97F3-9F34B3202F26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0CC0A45-D6C5-46DA-97F3-9F34B3202F26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0CC0A45-D6C5-46DA-97F3-9F34B3202F26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C90423F-D5AE-44A8-B30B-2423832B5CD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C90423F-D5AE-44A8-B30B-2423832B5CD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C90423F-D5AE-44A8-B30B-2423832B5CD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C90423F-D5AE-44A8-B30B-2423832B5CD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8CE000E-C0CD-425E-BC6D-E24926A28D6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8CE000E-C0CD-425E-BC6D-E24926A28D6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8CE000E-C0CD-425E-BC6D-E24926A28D6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8CE000E-C0CD-425E-BC6D-E24926A28D6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33730984-661A-4765-9638-33AC7D165DD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33730984-661A-4765-9638-33AC7D165DD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33730984-661A-4765-9638-33AC7D165DD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33730984-661A-4765-9638-33AC7D165DD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77797F13-4EF1-45DB-BECB-CEA0284D3BF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77797F13-4EF1-45DB-BECB-CEA0284D3BF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77797F13-4EF1-45DB-BECB-CEA0284D3BF5}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{77797F13-4EF1-45DB-BECB-CEA0284D3BF5}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{0F7CA927-BE0F-49F2-96D0-F0163F7E9D2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F7CA927-BE0F-49F2-96D0-F0163F7E9D2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F7CA927-BE0F-49F2-96D0-F0163F7E9D2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F7CA927-BE0F-49F2-96D0-F0163F7E9D2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8027055-BC73-48AA-9DE8-7B745C260327}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8027055-BC73-48AA-9DE8-7B745C260327}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8027055-BC73-48AA-9DE8-7B745C260327}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8027055-BC73-48AA-9DE8-7B745C260327}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 28
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://utn2017netg26.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Unidad1Capitulo1Lab1\\Unidad1Capitulo1Lab1.csproj
+		SccProjectName1 = Unidad1Capitulo1Lab1
+		SccLocalPath1 = Unidad1Capitulo1Lab1
+		SccProjectUniqueName2 = Unidad2Capitulo1Lab1Practica1\\Unidad2Capitulo1Lab1Practica1.csproj
+		SccProjectName2 = Unidad2Capitulo1Lab1Practica1
+		SccLocalPath2 = Unidad2Capitulo1Lab1Practica1
+		SccProjectUniqueName3 = Unidad2Capitulo1Lab1Practica3\\Unidad2Capitulo1Lab1Practica3.csproj
+		SccProjectName3 = Unidad2Capitulo1Lab1Practica3
+		SccLocalPath3 = Unidad2Capitulo1Lab1Practica3
+		SccProjectUniqueName4 = Unidad2Capitulo1Lab1Practica4\\Unidad2Capitulo1Lab1Practica4.csproj
+		SccProjectName4 = Unidad2Capitulo1Lab1Practica4
+		SccLocalPath4 = Unidad2Capitulo1Lab1Practica4
+		SccProjectUniqueName5 = Unidad2Capitulo1Lab1Practica2\\Unidad2Capitulo1Lab1Practica2.csproj
+		SccProjectName5 = Unidad2Capitulo1Lab1Practica2
+		SccLocalPath5 = Unidad2Capitulo1Lab1Practica2
+		SccProjectUniqueName6 = Unidad2Capitulo2Lab1Practica1Clases\\Unidad2Capitulo2Lab2Practica1Clases.csproj
+		SccProjectName6 = Unidad2Capitulo2Lab1Practica1Clases
+		SccLocalPath6 = Unidad2Capitulo2Lab1Practica1Clases
+		SccProjectUniqueName7 = Unidad2Capitulo2Lab1Practica1Consola\\Unidad2Capitulo2Lab2Practica1Consola.csproj
+		SccProjectName7 = Unidad2Capitulo2Lab1Practica1Consola
+		SccLocalPath7 = Unidad2Capitulo2Lab1Practica1Consola
+		SccProjectUniqueName8 = Unidad2Capitulo2Lab1Practica2Clases\\Unidad2Capitulo2Lab2Practica2Clases.csproj
+		SccProjectName8 = Unidad2Capitulo2Lab1Practica2Clases
+		SccLocalPath8 = Unidad2Capitulo2Lab1Practica2Clases
+		SccProjectUniqueName9 = Unidad2Capitulo2Lab1Practica2Consola\\Unidad2Capitulo2Lab2Practica2Consola.csproj
+		SccProjectName9 = Unidad2Capitulo2Lab1Practica2Consola
+		SccLocalPath9 = Unidad2Capitulo2Lab1Practica2Consola
+		SccProjectUniqueName10 = Unidad2Capitulo2Lab1Practica3Clases\\Unidad2Capitulo2Lab2Practica3Clases.csproj
+		SccProjectName10 = Unidad2Capitulo2Lab1Practica3Clases
+		SccLocalPath10 = Unidad2Capitulo2Lab1Practica3Clases
+		SccProjectUniqueName11 = Unidad2Capitulo2Lab1Practica4Clases\\Unidad2Capitulo2Lab2Practica4Clases.csproj
+		SccProjectName11 = Unidad2Capitulo2Lab1Practica4Clases
+		SccLocalPath11 = Unidad2Capitulo2Lab1Practica4Clases
+		SccProjectUniqueName12 = Unidad2Capitulo2Lab1Practica5Clases\\Unidad2Capitulo2Lab2Practica5Clases.csproj
+		SccProjectName12 = Unidad2Capitulo2Lab1Practica5Clases
+		SccLocalPath12 = Unidad2Capitulo2Lab1Practica5Clases
+		SccProjectUniqueName13 = Unidad2Capitulo2Lab1Practica5Consola\\Unidad2Capitulo2Lab2Practica5Consola.csproj
+		SccProjectName13 = Unidad2Capitulo2Lab1Practica5Consola
+		SccLocalPath13 = Unidad2Capitulo2Lab1Practica5Consola
+		SccProjectUniqueName14 = Unidad4Capitulo1Lab1Practica1\\Unidad4Capitulo1Lab1Practica1.csproj
+		SccProjectName14 = Unidad4Capitulo1Lab1Practica1
+		SccLocalPath14 = Unidad4Capitulo1Lab1Practica1
+		SccProjectUniqueName15 = Unidad4Capitulo1Lab1Practica2\\Unidad4Capitulo1Lab1Practica2.csproj
+		SccProjectName15 = Unidad4Capitulo1Lab1Practica2
+		SccLocalPath15 = Unidad4Capitulo1Lab1Practica2
+		SccProjectUniqueName16 = Unidad4Capitulo1Lab1Practica3\\Unidad4Capitulo1Lab1Practica3.csproj
+		SccProjectName16 = Unidad4Capitulo1Lab1Practica3
+		SccLocalPath16 = Unidad4Capitulo1Lab1Practica3
+		SccProjectUniqueName17 = Unidad4Capitul1Lab2Practica1\\Unidad4Capitulo1Lab2Practica1.csproj
+		SccProjectName17 = Unidad4Capitul1Lab2Practica1
+		SccLocalPath17 = Unidad4Capitul1Lab2Practica1
+		SccProjectUniqueName18 = Unidad4Capitulo1Lab3Practica1\\Unidad4Capitulo1Lab3Practica1.csproj
+		SccProjectName18 = Unidad4Capitulo1Lab3Practica1
+		SccLocalPath18 = Unidad4Capitulo1Lab3Practica1
+		SccProjectUniqueName19 = Unidad4Capitulo1Lab3Practica2\\Unidad4Capitulo1Lab3Practica2.csproj
+		SccProjectName19 = Unidad4Capitulo1Lab3Practica2
+		SccLocalPath19 = Unidad4Capitulo1Lab3Practica2
+		SccProjectUniqueName20 = Unidad4Capitulo1Lab3Practica3\\Unidad4Capitulo1Lab3Practica3.csproj
+		SccProjectName20 = Unidad4Capitulo1Lab3Practica3
+		SccLocalPath20 = Unidad4Capitulo1Lab3Practica3
+		SccProjectUniqueName21 = Unidad4Capitulo1Lab3Practica4\\Unidad4Capitulo1Lab3Practica4.csproj
+		SccProjectName21 = Unidad4Capitulo1Lab3Practica4
+		SccLocalPath21 = Unidad4Capitulo1Lab3Practica4
+		SccProjectUniqueName22 = Unidad4Capitulo1Lab3Practica5\\Unidad4Capitulo1Lab3Practica5.csproj
+		SccProjectName22 = Unidad4Capitulo1Lab3Practica5
+		SccLocalPath22 = Unidad4Capitulo1Lab3Practica5
+		SccProjectUniqueName23 = Unidad4Capitulo1Lab3Practica6\\Unidad4Capitulo1Lab3Practica6.csproj
+		SccProjectName23 = Unidad4Capitulo1Lab3Practica6
+		SccLocalPath23 = Unidad4Capitulo1Lab3Practica6
+		SccProjectUniqueName24 = Unidad4Capitulo1Lab3Practica7\\Unidad4Capitulo1Lab3Practica7.csproj
+		SccProjectName24 = Unidad4Capitulo1Lab3Practica7
+		SccLocalPath24 = Unidad4Capitulo1Lab3Practica7
+		SccWebProject25 = true
+		SccProjectUniqueName25 = Unidad5WebSite
+		SccProjectName25 = Unidad5WebSite
+		SccLocalPath25 = Unidad5WebSite
+		SccProjectEnlistmentChoice25 = 2
+		SccProjectUniqueName26 = Unidad5Grilla\\Unidad5Grilla.csproj
+		SccProjectName26 = Unidad5Grilla
+		SccLocalPath26 = Unidad5Grilla
+		SccProjectUniqueName27 = Unidad5Negocio\\Unidad5Negocio.csproj
+		SccProjectName27 = Unidad5Negocio
+		SccLocalPath27 = Unidad5Negocio
+	EndGlobalSection
+EndGlobal

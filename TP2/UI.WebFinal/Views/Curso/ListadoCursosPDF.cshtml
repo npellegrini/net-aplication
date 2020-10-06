@@ -1,0 +1,77 @@
+﻿@model IEnumerable<UI.WebFinal.Models.AlumnoInscripcionModel>
+
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ListadoCursosPDF</title>
+</head>
+<body>
+
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.id_inscripcion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.legajo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.nombre_Apellido)
+            </th>
+            <td>
+                @Html.DisplayNameFor(model => model.condicion)
+            </td>
+            <th>
+                @Html.DisplayNameFor(model => model.nota)
+            </th>
+
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.id_inscripcion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.legajo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.nombre_Apellido)
+                </td>
+                <td>
+                    @{
+                        if (item.condicion == 0)
+                        {
+                            <p>Libre</p>
+                        }
+                        else if (item.condicion == 1)
+                        {
+                            <p>Inscripto</p>
+                        }
+                        else if (item.condicion == 2)
+                        {
+                            <p>Regular</p>
+                        }
+                        else if (item.condicion == 3)
+                        {
+                            <p>Aprobado</p>
+                        }
+                    }
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.nota)
+                </td>
+ 
+            </tr>
+                        }
+
+    </table>
+</body>
+</html>

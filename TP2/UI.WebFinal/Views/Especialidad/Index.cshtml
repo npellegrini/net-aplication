@@ -1,0 +1,51 @@
+﻿@model IEnumerable<UI.WebFinal.Models.EspecialidadModel>
+
+@{
+    ViewBag.Title = "Especialidades";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br/>
+<br />
+<h2>Especialidades</h2>
+
+<p>
+    @Html.ActionLink("Agregar especialidad", "Agregar")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.id_especialidad)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.desc_especialidad)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.id_especialidad)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.desc_especialidad)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Editar", new { id = item.id_especialidad }) |
+            @Html.ActionLink("Eliminar", "Eliminar", new { id = item.id_especialidad }, new { @class = "pElimina" })
+        </td>
+    </tr>
+}
+
+</table>
+@section scripts
+{
+    <script>
+        $(".pElimina").click(function (event) {
+            if (!confirm('Estas seguro que desea eliminar?')) {
+                event.preventDefault();
+            }
+        });
+    </script>
+
+}

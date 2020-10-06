@@ -1,0 +1,91 @@
+﻿@model IEnumerable<UI.WebFinal.Models.CursoModel>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+<br />
+
+<h2>Cursos</h2>
+<p>
+    @Html.ActionLink("Crear curso", "Agregar")
+    @*@Html.ActionLink("Exportar a PDF", "ExportPdf")*@
+
+</p>
+
+<h5>@Session["Message"]</h5>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.id_curso)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.anio_calendario)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.desc_especialidad)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.desc_plan)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.desc_materia)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.desc_comision)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.cupo)
+        </th>
+        
+        
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.id_curso)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.anio_calendario)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.desc_especialidad)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.desc_plan)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.desc_materia)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.desc_comision)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.cupo)
+        </td>
+      
+        
+        <td>
+            @Html.ActionLink("Editar", "Editar", new { id = item.id_curso }) |
+            @Html.ActionLink("Dictados", "Index", "DocenteCurso", new { id = item.id_curso }, null)|
+            @Html.ActionLink("Eliminar", "Eliminar", new { id = item.id_curso },new { @class="pElimina"}) |
+            @Html.ActionLink("Exportar detalle", "ExportPdf", new { id = item.id_curso })
+        </td>
+    </tr>
+}
+
+</table>
+@section scripts
+{
+    <script>
+        $(".pElimina").click(function (event) {
+            if (!confirm('Estas seguro que desea eliminar?')) {
+                event.preventDefault();
+            }
+        });
+    </script>
+
+}
